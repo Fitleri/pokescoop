@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/*colour code: #f7f7f7, #fea49f, #ffffff, #101357, #fea49f*/
+
+/*global styling for elements in main and body unless overwritten*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+  height: 100%;
+  padding: 30px;
+  background-color: #f7f7f7;
+}
+
+main{
+  background-color: #ffffff;
+}
+
+/*styling for top navigation menu*/
+
+header nav ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+header nav li{
+  margin: 10px;
+  background-color: #fea49f;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+header a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+#logo {
+  flex: 2;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #101357;
+  text-transform: none;
+  border-radius: 5px;
+}
+
+/*styling for main content*/
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: flex-start;
+  flex: 1;
+  font-size: 15px;
+}
+
+.row{
+	display: flex;
+  flex-flow: row wrap;
+}
+
+button{
+  font-size: 15px;
+  width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  font-weight: 1000;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #fea49f;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main p{
+  color: #101357;
+  margin-top: 10px;
+}
+
+.layout{
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+}
