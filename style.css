@@ -14,11 +14,11 @@ body {
   font-weight: 1000;
   height: 100%;
   padding: 30px;
-  background-color: #FAFAD2;
+  background-color: #ffffff;
 }
 
 main{
-  background-color: #ffffff;
+  background-color:#FAFAD2;
 }
 
 /*styling for top navigation menu*/
@@ -78,6 +78,16 @@ header a{
 .row{
 	display: flex;
   flex-flow: row wrap;
+}
+
+.deal{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  align-items: center;
+  text-align: center;
 }
 
 button{
