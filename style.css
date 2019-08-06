@@ -14,7 +14,7 @@ body {
   font-weight: 1000;
   height: 100%;
   padding: 30px;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
 }
 
 main{
@@ -28,12 +28,11 @@ header nav ul{
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 
 header nav li{
   margin: 10px;
-  background-color: #fea49f;
   display: flex;
   flex: 1;
   align-items: center;
@@ -44,7 +43,7 @@ header nav li{
 
 header a{
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 .hide{
@@ -55,7 +54,6 @@ header a{
   flex: 2;
   color: #ffffff;
   padding: 10px;
-  background-color: #101357;
   text-transform: none;
   border-radius: 5px;
 }
@@ -65,7 +63,7 @@ header a{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding-bottom: 20px;
 }
 
 .column {
