@@ -122,3 +122,12 @@ main p{
   font-size: 70px;
   background: rgba(255, 255, 255, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+.column {
+margin: auto;
+padding: 0px;
+align-items: center;
+text-align: center;
+}
+}
