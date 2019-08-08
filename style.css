@@ -120,6 +120,35 @@ main p{
   margin-bottom: auto;
 }
 
+.info1{
+  margin: auto;
+  text-align: left;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.info2{
+  margin: auto;
+  text-align: left;
+  align-items:center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+  width: auto;
+}
+table img{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
 .layout{
   position: absolute;
   color: #000000;
